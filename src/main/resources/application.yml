@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: item-service
+  #源数据
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_data?serverTimezone=GMT&useSSL=FALSE
+    username: root
+    password: wrial.qq.com
+    type: com.alibaba.druid.pool.DruidDataSource
