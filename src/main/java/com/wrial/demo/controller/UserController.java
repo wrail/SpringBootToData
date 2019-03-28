@@ -21,7 +21,7 @@ public class UserController {
 
     @GetMapping("/addStudnt")
     public Integer addStudent( @Param("name") String name, @Param("age") Integer age){
-        return studentService.addUser(name,age);
+        return studentService.addStudent(name,age);
     }
 
     @GetMapping("/findStudentByPage")
